@@ -4,12 +4,12 @@ class Todo extends Component {
     render() {
         return (
             <div>
-                {/* Edit the task */}
+                {/* TODO Modifier la tâche */}
                 <button>Edit</button>
-                {/* Supprimer la tâche */}
+                {/* TODO Supprimer la tâche */}
                 <button>X</button>
-                {/* Tâche à render */}
-                <li>this.props.task</li>
+                {/* TODO Tâche à render */}
+                <li>{this.props.task}</li>
             </div>
         )
     }
