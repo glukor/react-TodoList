@@ -18,7 +18,7 @@ class NewTodoForm extends Component {
     handleSubmit(evt) {
         evt.preventDefault();
         this.props.createTodo({ ...this.state, id: uuid() });
-        this.setState(this.state = { task: "" });
+        this.setState({ task: "" });
     }
 
     render() {
@@ -35,7 +35,7 @@ class NewTodoForm extends Component {
                 </input>
                 <button>Ajouter une tâche</button>
             </form>
-        )
+        );
     }
 }
 
